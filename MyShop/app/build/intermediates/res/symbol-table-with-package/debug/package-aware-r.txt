@@ -508,6 +508,7 @@ color material_grey_850
 color material_grey_900
 color notification_action_color_filter
 color notification_icon_bg_color
+color notification_material_background_media_default_color
 color preference_fallback_accent_color
 color primary_dark_material_dark
 color primary_dark_material_light
@@ -651,6 +652,10 @@ dimen preference_icon_minWidth
 dimen preference_seekbar_padding_horizontal
 dimen preference_seekbar_padding_vertical
 dimen preference_seekbar_value_minWidth
+dimen subtitle_corner_radius
+dimen subtitle_outline_width
+dimen subtitle_shadow_offset
+dimen subtitle_shadow_radius
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -816,6 +821,7 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
+id action0
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -845,6 +851,7 @@ id beginning
 id blocking
 id bottom
 id buttonPanel
+id cancel_action
 id center
 id center_horizontal
 id center_vertical
@@ -869,6 +876,7 @@ id edit_query
 id email
 id email1
 id end
+id end_padder
 id expand_activities_button
 id expanded_menu
 id fill
@@ -901,6 +909,7 @@ id line3
 id listMode
 id listView
 id list_item
+id media_actions
 id message
 id middle
 id multiply
@@ -960,6 +969,7 @@ id src_in
 id src_over
 id standard
 id start
+id status_bar_latest_event_content
 id submenuarrow
 id submit_area
 id switchWidget
@@ -980,6 +990,7 @@ id textView
 id textView4
 id textView_description
 id textView_name
+id text_display_info
 id time
 id title
 id titleDividerNoCustom
@@ -1037,6 +1048,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_contact_us
 layout activity_main
+layout activity_show_products
 layout add_item_layout
 layout contact_layout
 layout custom_dialog
@@ -1047,8 +1059,17 @@ layout layout
 layout login_layout
 layout notification_action
 layout notification_action_tombstone
+layout notification_media_action
+layout notification_media_cancel_action
+layout notification_template_big_media
+layout notification_template_big_media_custom
+layout notification_template_big_media_narrow
+layout notification_template_big_media_narrow_custom
 layout notification_template_custom_big
 layout notification_template_icon_group
+layout notification_template_lines_media
+layout notification_template_media
+layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout preference
@@ -1071,6 +1092,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout settings_activity
+layout show_products_layout
 layout support_simple_spinner_dropdown_item
 menu shop_menu
 mipmap ic_launcher
@@ -1108,6 +1130,7 @@ string attachment_summary_on
 string attachment_title
 string copy
 string expand_button_title
+string hello_blank_fragment
 string messages_header
 string not_set
 string preference_copied
@@ -1392,9 +1415,14 @@ style TextAppearance_AppCompat_Widget_Switch
 style TextAppearance_AppCompat_Widget_TextView_SpinnerItem
 style TextAppearance_Compat_Notification
 style TextAppearance_Compat_Notification_Info
+style TextAppearance_Compat_Notification_Info_Media
 style TextAppearance_Compat_Notification_Line2
+style TextAppearance_Compat_Notification_Line2_Media
+style TextAppearance_Compat_Notification_Media
 style TextAppearance_Compat_Notification_Time
+style TextAppearance_Compat_Notification_Time_Media
 style TextAppearance_Compat_Notification_Title
+style TextAppearance_Compat_Notification_Title_Media
 style TextAppearance_Widget_AppCompat_ExpandedMenu_Item
 style TextAppearance_Widget_AppCompat_Toolbar_Subtitle
 style TextAppearance_Widget_AppCompat_Toolbar_Title

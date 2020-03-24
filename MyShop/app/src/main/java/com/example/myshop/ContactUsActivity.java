@@ -27,18 +27,6 @@ public class ContactUsActivity extends AppCompatActivity {
             }
         });
 
-        /*final TextView email=(TextView) findViewById(R.id.email);
-        email.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent mail = new Intent(Intent.ACTION_SEND);
-                mail.putExtra(Intent.EXTRA_EMAIL,"calancea.bianca15@gmail.com");
-                mail.putExtra(Intent.EXTRA_TEXT,"Help us");
-                mail.putExtra(Intent.EXTRA_SUBJECT,"Problem report");
-                mail.setType("plain/text");
-                startActivity(mail);
-            }
-        });*/
 
         final AlertDialog.Builder alert = new AlertDialog.Builder(ContactUsActivity.this);
         final View view = getLayoutInflater().inflate(R.layout.contact_layout,null);

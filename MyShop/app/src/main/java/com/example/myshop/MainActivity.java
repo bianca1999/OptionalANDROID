@@ -26,7 +26,7 @@ import com.example.myshop.database.AppDatabase;
 import com.example.myshop.database.Product;
 
 public class MainActivity extends AppCompatActivity {
-    public AppDatabase appDatabase;
+    public static AppDatabase appDatabase;
     AlertDialog addItem=null;
     int[] IMAGES = {R.drawable.rujmaybelline, R.drawable.rujmelkior, R.drawable.rimelmaybelline,R.drawable.rujmaybelline,R.drawable.eyelineringrid,R.drawable.paletalancome, R.drawable.rujmelkior,};
     String[] NAMES={"Ruj Maybelline","Ruj Melkior", "Rimel Maybelline","Ruj Maybelline", "Eyliner Liquid LANCOME ", "Paleta cu farduri LANCOME","Ruj Melkior"};
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                     return true;
                 case R.id.item2:
                     Toast.makeText(MainActivity.this,"Products selected",Toast.LENGTH_LONG).show();
-                    intent = new Intent(MainActivity.this, MainActivity.class);
+                    intent = new Intent(MainActivity.this, ShowProductsActivity.class);
                     startActivity(intent);
                     return true;
                 case R.id.item3:

@@ -7,73 +7,77 @@
 7
 8    <uses-sdk
 9        android:minSdkVersion="15"
-9-->C:\Users\calan\AndroidStudioProjects\MyShop\app\src\main\AndroidManifest.xml
+9-->C:\OptionalANDROID\MyShop\app\src\main\AndroidManifest.xml
 10        android:targetSdkVersion="29" />
-10-->C:\Users\calan\AndroidStudioProjects\MyShop\app\src\main\AndroidManifest.xml
+10-->C:\OptionalANDROID\MyShop\app\src\main\AndroidManifest.xml
 11
 12    <dist:module dist:instant="true" />
-12-->C:\Users\calan\AndroidStudioProjects\MyShop\app\src\main\AndroidManifest.xml:6:5-40
-12-->C:\Users\calan\AndroidStudioProjects\MyShop\app\src\main\AndroidManifest.xml:6:18-37
+12-->C:\OptionalANDROID\MyShop\app\src\main\AndroidManifest.xml:6:5-40
+12-->C:\OptionalANDROID\MyShop\app\src\main\AndroidManifest.xml:6:18-37
 13
 14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-14-->C:\Users\calan\AndroidStudioProjects\MyShop\app\src\main\AndroidManifest.xml:8:5-81
-14-->C:\Users\calan\AndroidStudioProjects\MyShop\app\src\main\AndroidManifest.xml:8:22-78
+14-->C:\OptionalANDROID\MyShop\app\src\main\AndroidManifest.xml:8:5-81
+14-->C:\OptionalANDROID\MyShop\app\src\main\AndroidManifest.xml:8:22-78
 15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-15-->C:\Users\calan\AndroidStudioProjects\MyShop\app\src\main\AndroidManifest.xml:9:5-80
-15-->C:\Users\calan\AndroidStudioProjects\MyShop\app\src\main\AndroidManifest.xml:9:22-77
+15-->C:\OptionalANDROID\MyShop\app\src\main\AndroidManifest.xml:9:5-80
+15-->C:\OptionalANDROID\MyShop\app\src\main\AndroidManifest.xml:9:22-77
 16
 17    <application
-17-->C:\Users\calan\AndroidStudioProjects\MyShop\app\src\main\AndroidManifest.xml:11:5-31:19
+17-->C:\OptionalANDROID\MyShop\app\src\main\AndroidManifest.xml:11:5-31:19
 18        android:allowBackup="true"
-18-->C:\Users\calan\AndroidStudioProjects\MyShop\app\src\main\AndroidManifest.xml:12:9-35
+18-->C:\OptionalANDROID\MyShop\app\src\main\AndroidManifest.xml:12:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 19-->[androidx.core:core:1.1.0] C:\Users\calan\.gradle\caches\transforms-2\files-2.1\992a8ea986e0e8cc64f6bd1e4922a1ac\core-1.1.0\AndroidManifest.xml:24:18-86
 20        android:debuggable="true"
 21        android:icon="@mipmap/ic_launcher"
-21-->C:\Users\calan\AndroidStudioProjects\MyShop\app\src\main\AndroidManifest.xml:13:9-43
+21-->C:\OptionalANDROID\MyShop\app\src\main\AndroidManifest.xml:13:9-43
 22        android:label="@string/app_name"
-22-->C:\Users\calan\AndroidStudioProjects\MyShop\app\src\main\AndroidManifest.xml:14:9-41
+22-->C:\OptionalANDROID\MyShop\app\src\main\AndroidManifest.xml:14:9-41
 23        android:roundIcon="@mipmap/ic_launcher_round"
-23-->C:\Users\calan\AndroidStudioProjects\MyShop\app\src\main\AndroidManifest.xml:15:9-54
+23-->C:\OptionalANDROID\MyShop\app\src\main\AndroidManifest.xml:15:9-54
 24        android:supportsRtl="true"
-24-->C:\Users\calan\AndroidStudioProjects\MyShop\app\src\main\AndroidManifest.xml:16:9-35
-25        android:theme="@style/AppTheme" >
-25-->C:\Users\calan\AndroidStudioProjects\MyShop\app\src\main\AndroidManifest.xml:17:9-40
-26        <activity
-26-->C:\Users\calan\AndroidStudioProjects\MyShop\app\src\main\AndroidManifest.xml:19:9-21:63
-27            android:name="com.example.myshop.SettingsActivity"
-27-->C:\Users\calan\AndroidStudioProjects\MyShop\app\src\main\AndroidManifest.xml:20:13-45
-28            android:label="@string/title_activity_settings" />
-28-->C:\Users\calan\AndroidStudioProjects\MyShop\app\src\main\AndroidManifest.xml:21:13-60
-29        <activity android:name="com.example.myshop.ContactUsActivity" />
-29-->C:\Users\calan\AndroidStudioProjects\MyShop\app\src\main\AndroidManifest.xml:22:9-55
-29-->C:\Users\calan\AndroidStudioProjects\MyShop\app\src\main\AndroidManifest.xml:22:19-52
-30        <activity android:name="com.example.myshop.MainActivity" />
-30-->C:\Users\calan\AndroidStudioProjects\MyShop\app\src\main\AndroidManifest.xml:23:9-50
-30-->C:\Users\calan\AndroidStudioProjects\MyShop\app\src\main\AndroidManifest.xml:23:19-47
-31        <activity android:name="com.example.myshop.LoginActivity" >
-31-->C:\Users\calan\AndroidStudioProjects\MyShop\app\src\main\AndroidManifest.xml:24:9-30:20
-31-->C:\Users\calan\AndroidStudioProjects\MyShop\app\src\main\AndroidManifest.xml:24:19-48
-32            <intent-filter>
-32-->C:\Users\calan\AndroidStudioProjects\MyShop\app\src\main\AndroidManifest.xml:25:13-29:29
-33                <action android:name="android.intent.action.MAIN" />
-33-->C:\Users\calan\AndroidStudioProjects\MyShop\app\src\main\AndroidManifest.xml:26:17-69
-33-->C:\Users\calan\AndroidStudioProjects\MyShop\app\src\main\AndroidManifest.xml:26:25-66
-34
-35                <category android:name="android.intent.category.LAUNCHER" />
-35-->C:\Users\calan\AndroidStudioProjects\MyShop\app\src\main\AndroidManifest.xml:28:17-77
-35-->C:\Users\calan\AndroidStudioProjects\MyShop\app\src\main\AndroidManifest.xml:28:27-74
-36            </intent-filter>
-37        </activity>
-38
-39        <service
-39-->[androidx.room:room-runtime:2.2.5] C:\Users\calan\.gradle\caches\transforms-2\files-2.1\d2393882530037f512ea565a498066d9\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
-40            android:name="androidx.room.MultiInstanceInvalidationService"
-40-->[androidx.room:room-runtime:2.2.5] C:\Users\calan\.gradle\caches\transforms-2\files-2.1\d2393882530037f512ea565a498066d9\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
-41            android:directBootAware="true"
-41-->[androidx.room:room-runtime:2.2.5] C:\Users\calan\.gradle\caches\transforms-2\files-2.1\d2393882530037f512ea565a498066d9\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
-42            android:exported="false" />
-42-->[androidx.room:room-runtime:2.2.5] C:\Users\calan\.gradle\caches\transforms-2\files-2.1\d2393882530037f512ea565a498066d9\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
-43    </application>
-44
-45</manifest>
+24-->C:\OptionalANDROID\MyShop\app\src\main\AndroidManifest.xml:16:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->C:\OptionalANDROID\MyShop\app\src\main\AndroidManifest.xml:17:9-40
+27        <activity android:name="com.example.myshop.ShowProductsActivity" />
+27-->C:\OptionalANDROID\MyShop\app\src\main\AndroidManifest.xml:18:9-67
+27-->C:\OptionalANDROID\MyShop\app\src\main\AndroidManifest.xml:18:19-55
+28        <activity
+28-->C:\OptionalANDROID\MyShop\app\src\main\AndroidManifest.xml:19:9-21:63
+29            android:name="com.example.myshop.SettingsActivity"
+29-->C:\OptionalANDROID\MyShop\app\src\main\AndroidManifest.xml:20:13-45
+30            android:label="@string/title_activity_settings" />
+30-->C:\OptionalANDROID\MyShop\app\src\main\AndroidManifest.xml:21:13-60
+31        <activity android:name="com.example.myshop.ContactUsActivity" />
+31-->C:\OptionalANDROID\MyShop\app\src\main\AndroidManifest.xml:22:9-55
+31-->C:\OptionalANDROID\MyShop\app\src\main\AndroidManifest.xml:22:19-52
+32        <activity android:name="com.example.myshop.MainActivity" />
+32-->C:\OptionalANDROID\MyShop\app\src\main\AndroidManifest.xml:23:9-50
+32-->C:\OptionalANDROID\MyShop\app\src\main\AndroidManifest.xml:23:19-47
+33        <activity android:name="com.example.myshop.LoginActivity" >
+33-->C:\OptionalANDROID\MyShop\app\src\main\AndroidManifest.xml:24:9-30:20
+33-->C:\OptionalANDROID\MyShop\app\src\main\AndroidManifest.xml:24:19-48
+34            <intent-filter>
+34-->C:\OptionalANDROID\MyShop\app\src\main\AndroidManifest.xml:25:13-29:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\OptionalANDROID\MyShop\app\src\main\AndroidManifest.xml:26:17-69
+35-->C:\OptionalANDROID\MyShop\app\src\main\AndroidManifest.xml:26:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\OptionalANDROID\MyShop\app\src\main\AndroidManifest.xml:28:17-77
+37-->C:\OptionalANDROID\MyShop\app\src\main\AndroidManifest.xml:28:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <service
+41-->[androidx.room:room-runtime:2.2.5] C:\Users\calan\.gradle\caches\transforms-2\files-2.1\d2393882530037f512ea565a498066d9\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+42            android:name="androidx.room.MultiInstanceInvalidationService"
+42-->[androidx.room:room-runtime:2.2.5] C:\Users\calan\.gradle\caches\transforms-2\files-2.1\d2393882530037f512ea565a498066d9\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+43            android:directBootAware="true"
+43-->[androidx.room:room-runtime:2.2.5] C:\Users\calan\.gradle\caches\transforms-2\files-2.1\d2393882530037f512ea565a498066d9\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+44            android:exported="false" />
+44-->[androidx.room:room-runtime:2.2.5] C:\Users\calan\.gradle\caches\transforms-2\files-2.1\d2393882530037f512ea565a498066d9\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+45    </application>
+46
+47</manifest>

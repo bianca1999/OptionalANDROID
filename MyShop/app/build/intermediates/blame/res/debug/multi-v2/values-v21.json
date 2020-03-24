@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\calan\\AndroidStudioProjects\\MyShop\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\OptionalANDROID\\MyShop\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\calan\\.gradle\\caches\\transforms-2\\files-2.1\\d9b3516b31f2b3d598f450df9bfc5c7c\\preference-1.1.0-alpha05\\res\\values-v21\\values-v21.xml",
@@ -52,12 +52,31 @@
                         "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,272,273,274,275,276,279",
+                        "startLines": "2,3,4,5,272,273,280,284,288,291",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,159,223,290,19723,19839,19965,20091,20219,20391",
-                        "endLines": "2,3,4,5,272,273,274,275,278,283",
+                        "startOffsets": "55,159,223,290,19723,19839,20296,20590,20885,21057",
+                        "endLines": "2,3,4,5,272,273,280,284,290,295",
                         "endColumns": "103,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "154,218,285,349,19834,19960,20086,20214,20386,20724"
+                        "endOffsets": "154,218,285,349,19834,19960,20417,20713,21052,21390"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\calan\\.gradle\\caches\\transforms-2\\files-2.1\\1033cafee0ead90ebd4d341ea85805df\\media-1.0.0\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,5,8,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,223,386,554",
+                        "endLines": "4,7,10,13",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "218,381,549,716"
+                    },
+                    "to": {
+                        "startLines": "274,277,281,285",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "19965,20133,20422,20718",
+                        "endLines": "276,279,283,287",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "20128,20291,20585,20880"
                     }
                 }
             ]
