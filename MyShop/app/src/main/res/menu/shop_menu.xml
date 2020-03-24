@@ -8,9 +8,9 @@
         app:showAsAction="never"
         android:icon="@android:drawable/ic_input_add"/>
     <item
-    android:id="@+id/item2"
-    android:title="Our Products"
-    app:showAsAction="never" />
+        android:id="@+id/item2"
+        android:title="Our Products"
+        app:showAsAction="never" />
     <item
         android:id="@+id/item3"
         android:title="Settings"
@@ -19,5 +19,11 @@
         android:title="Contact Us"
         android:id="@+id/item4"
         app:showAsAction="never"/>
+
+    <item
+        android:title="Add an item"
+        android:id="@+id/item5"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_input_add"/>
 
 </menu>

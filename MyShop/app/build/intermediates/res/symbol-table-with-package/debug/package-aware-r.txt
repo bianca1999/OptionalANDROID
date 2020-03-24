@@ -893,6 +893,7 @@ id item1
 id item2
 id item3
 id item4
+id item5
 id item_touch_helper_previous_elevation
 id left
 id line1
@@ -916,6 +917,10 @@ id parent
 id parentPanel
 id percent
 id phone
+id price
+id product_description
+id product_id
+id product_name
 id progress_circular
 id progress_horizontal
 id radio
@@ -1032,6 +1037,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_contact_us
 layout activity_main
+layout add_item_layout
 layout contact_layout
 layout custom_dialog
 layout custom_layout
@@ -1105,6 +1111,7 @@ string expand_button_title
 string messages_header
 string not_set
 string preference_copied
+string product_name
 string reply_title
 string search_menu_title
 string signature_title
