@@ -954,6 +954,8 @@ id search_voice_btn
 id seekbar
 id seekbar_value
 id select_dialog_listview
+id sensorId
+id sensorListView
 id settings
 id shortcut
 id showCustom
@@ -1047,6 +1049,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_contact_us
+layout activity_custom_sensor_manager
 layout activity_main
 layout activity_show_products
 layout add_item_layout
@@ -1092,7 +1095,6 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout settings_activity
-layout show_products_layout
 layout support_simple_spinner_dropdown_item
 menu shop_menu
 mipmap ic_launcher

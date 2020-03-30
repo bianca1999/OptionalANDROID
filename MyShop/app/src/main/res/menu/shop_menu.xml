@@ -25,5 +25,10 @@
         android:id="@+id/item5"
         app:showAsAction="ifRoom"
         android:icon="@android:drawable/ic_input_add"/>
+    <item
+        android:title="Sensors available on device"
+        android:id="@+id/sensorId"
+        app:showAsAction="never"
+        />
 
 </menu>

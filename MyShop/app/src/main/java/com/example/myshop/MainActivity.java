@@ -118,9 +118,12 @@ public class MainActivity extends AppCompatActivity {
 
                     addItem = alert.create();
                     addItem.show();
+                case R.id.sensorId:
+                    intent = new Intent(MainActivity.this, CustomSensorManager.class);
+                    startActivity(intent);
+                    return true;
+            }
 
-
-            } 
 
         return super.onOptionsItemSelected(item);
     }
