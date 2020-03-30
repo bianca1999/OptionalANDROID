@@ -122,6 +122,10 @@ public class MainActivity extends AppCompatActivity {
                     intent = new Intent(MainActivity.this, CustomSensorManager.class);
                     startActivity(intent);
                     return true;
+                case R.id.gpsId:
+                    intent = new Intent(MainActivity.this, GPSActivity.class);
+                    startActivity(intent);
+                    return true;
             }
 
 

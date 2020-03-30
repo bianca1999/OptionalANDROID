@@ -31,4 +31,10 @@
         app:showAsAction="never"
         />
 
+    <item
+        android:title="GPS"
+        android:id="@+id/gpsId"
+        app:showAsAction="never"
+        />
+
 </menu>

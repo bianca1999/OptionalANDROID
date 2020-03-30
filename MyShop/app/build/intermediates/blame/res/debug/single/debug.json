@@ -936,6 +936,10 @@
         "source": "C:\\Users\\calan\\.gradle\\caches\\transforms-2\\files-2.1\\a14f659a90fd39d2e3542ccfec9776ed\\appcompat-1.1.0\\res\\layout\\select_dialog_item_material.xml"
     },
     {
+        "merged": "C:\\OptionalANDROID\\MyShop\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_gps.xml.flat",
+        "source": "C:\\OptionalANDROID\\MyShop\\app\\src\\main\\res\\layout\\activity_gps.xml"
+    },
+    {
         "merged": "C:\\OptionalANDROID\\MyShop\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_check_material_anim.xml.flat",
         "source": "C:\\Users\\calan\\.gradle\\caches\\transforms-2\\files-2.1\\a14f659a90fd39d2e3542ccfec9776ed\\appcompat-1.1.0\\res\\drawable\\abc_btn_check_material_anim.xml"
     },

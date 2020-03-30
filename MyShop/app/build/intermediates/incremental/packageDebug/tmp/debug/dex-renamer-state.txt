@@ -1,4 +1,4 @@
-#Mon Mar 30 21:00:44 EEST 2020
+#Tue Mar 31 02:02:22 EEST 2020
 base.0=C\:\\OptionalANDROID\\MyShop\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

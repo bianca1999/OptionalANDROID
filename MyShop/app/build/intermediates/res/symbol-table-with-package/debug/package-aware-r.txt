@@ -850,6 +850,7 @@ id barrier
 id beginning
 id blocking
 id bottom
+id button
 id buttonPanel
 id cancel_action
 id center
@@ -884,6 +885,7 @@ id fill_horizontal
 id fill_vertical
 id forever
 id gone
+id gpsId
 id group_divider
 id groups
 id home
@@ -1050,6 +1052,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_contact_us
 layout activity_custom_sensor_manager
+layout activity_gps
 layout activity_main
 layout activity_show_products
 layout add_item_layout
