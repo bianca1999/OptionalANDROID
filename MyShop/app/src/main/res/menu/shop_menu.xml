@@ -30,11 +30,18 @@
         android:id="@+id/sensorId"
         app:showAsAction="never"
         />
-
     <item
         android:title="GPS"
         android:id="@+id/gpsId"
         app:showAsAction="never"
+        />
+
+
+    <item
+        android:title="Make a photo"
+        android:id="@+id/cameraId"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_camera"
         />
 
 </menu>

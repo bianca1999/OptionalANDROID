@@ -22,6 +22,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.myshop.camera.CameraActivity;
 import com.example.myshop.database.AppDatabase;
 import com.example.myshop.database.Product;
 
@@ -124,6 +125,11 @@ public class MainActivity extends AppCompatActivity {
                     return true;
                 case R.id.gpsId:
                     intent = new Intent(MainActivity.this, GPSActivity.class);
+                    startActivity(intent);
+                    return true;
+
+                case R.id.cameraId:
+                    intent = new Intent(MainActivity.this, CameraActivity.class);
                     startActivity(intent);
                     return true;
             }

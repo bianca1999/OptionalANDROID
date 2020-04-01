@@ -852,6 +852,7 @@ id blocking
 id bottom
 id button
 id buttonPanel
+id cameraId
 id cancel_action
 id center
 id center_horizontal
@@ -914,6 +915,7 @@ id list_item
 id media_actions
 id message
 id middle
+id mimageView
 id multiply
 id never
 id none
@@ -1050,8 +1052,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_camera
 layout activity_contact_us
 layout activity_custom_sensor_manager
+layout activity_display_image
 layout activity_gps
 layout activity_main
 layout activity_show_products
@@ -1601,4 +1605,5 @@ styleable Toolbar android_gravity android_minHeight buttonGravity collapseConten
 styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewStubCompat android_id android_layout android_inflatedId
+xml file_path
 xml root_preferences
